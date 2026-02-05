@@ -1,0 +1,156 @@
+:root {
+  font-family: Inter, sans-serif;
+  font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+}
+@supports (font-variation-settings: normal) {
+  :root { font-family: InterVariable, sans-serif; }
+}   
+body{
+    max-width: 75%;
+    margin-inline: auto;
+    background-image: url('https://www.mintlify.com/hero/bg-dark.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:top;
+    font-family: inherit;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 16px 24px;
+    border: auto;
+}
+.nav-element{
+    justify-items: center;
+    display:flex;
+    gap: 30px;
+    color: white;
+    margin-left: 42px;
+    padding-left: 70px;
+}
+.nav-contact{
+   border-radius: 30px;
+    padding: 7px 12px;
+    color: white;
+    background-color: rgb(255 255 255 / 7%);
+    border: none;
+    width: auto;
+    font-size: 15px;
+}
+.nav-start_for_free{
+    border-radius: 40px;
+    background-color: white;
+    padding: 7px 12px;
+    font-size: 15px;
+}
+.hero-header{
+    color:white;
+    background-color: lab(100 0 0 / 0.15);
+    border-radius: 30px;
+    height: 32px;
+    width: 390px;
+    display: flex;
+    align-items: center;
+    gap : 10px;
+    justify-content: center;
+
+}
+.hero-div{
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+}
+.new{
+    color: white;
+    border-radius: 10px;
+    padding:2px 8px;
+    border-style: none;
+    background-color: lab(51.3415 -41.5657 15.3527)
+    
+}
+.hero-span{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    gap : 8px;
+    height: 30px;
+    width: 380px;
+}
+
+.hero-section{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    margin-top: 2.5rem;
+    height:40vh;
+    width: 35vw;
+    margin: auto;
+}
+
+.hero-section h1{
+    font-size: 4rem;
+    font-weight: 500;
+    margin: 0%;
+    text-align: center;
+}
+
+.hero-section p{
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin:0%;
+    text-align:center;
+    width: 70%;
+}
+
+.email{
+    padding: 0.2rem;
+    background-color: rgba(255, 255, 255, 0.285);
+    border: 0.5px solid rgba(255, 255, 255, 0.31);
+    border-radius: 30px;
+    width: 59%;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 1.7rem;
+}
+
+.email input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: black;
+    padding-left: 0.8rem;
+    flex: 1;
+    
+}
+
+.email input::placeholder{
+    color: rgba(255, 255, 255, 0.416);
+    font-weight: 300;
+}
+
+.email button{
+    margin: 0%;
+    padding: 0.3rem 0.7rem;
+    border-radius: 30px;
+    border: none;
+
+}
+
+.email button:hover{
+    background-color: rgba(255, 255, 255, 0.412);
+    transition: all;
+    transition-duration: 100ms;
+}
+.sec-img img{
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.125);
+    margin-top: 3.5rem;
+}
+    
