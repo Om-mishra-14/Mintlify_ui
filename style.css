@@ -353,3 +353,161 @@ body {
   margin: auto;
   margin-top: 3rem;
 }
+.c-feedback{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding: 4rem 0rem;
+}
+.c-feedback h4{
+  font-size: 0.87rem;
+  font-family: monospace;
+  color: lab(79.9844 -59.6292 22.5096);
+  font-weight: 400;
+}
+.c-feedback h2{
+  font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.c-feedback p{
+  color: rgb(186, 177, 177);
+  width: 36%;
+  text-align: center;
+}
+.c-cards{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 1.2rem;
+  width: 80%;
+  margin: auto;
+  color: rgb(186, 177, 177);
+
+}
+.c-cards div{
+  width: 25vw;
+  position: relative;
+  height: 28rem;
+}
+.c-cards svg{
+  transform: rotate(-90deg);
+  height: 15px;
+}
+.c-cards h3{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  font-size: 1rem;
+
+}
+.c-cards img{
+  object-fit: cover;
+  width: 100%;
+  border-radius: 15px;
+  
+}
+.documentation{
+  padding: 8rem 0;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  
+
+}
+.documentation h1{
+  width: 55%;
+  margin: auto;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.documentation button{
+  margin-top: 2rem;
+}
+#b1{
+  padding:0.8rem 1.2rem;
+  border-radius: 50px;
+  font-size: 1rem;
+}
+#b2{
+  background-color: black;
+  color: white;
+  border: 2px solid rgba(255, 255, 255, 0.26);
+  padding: 0.6rem 1rem;
+  border-radius: 50px;
+}
+.last{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  margin-top: 5rem;
+}
+.last svg{
+  color: lab(79.9844 -59.6292 22.5096);
+  height: 3rem;
+}
+.last div{
+  padding: 0rem 7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.last div:first-child{
+  border-right: 1.5px solid rgba(255, 255, 255, 0.095);
+}
+.last h4 svg{
+  transform: rotate(-90deg);
+  height: 15px;
+}
+.last h4{
+  display: flex;
+  align-items: center;
+  color: lab(79.9844 -59.6292 22.5096);
+  font-weight: 500;
+}
+
+.last h3{
+  color: rgb(186, 177, 177);
+  margin: 0;
+  margin-bottom: 2.5rem;
+}
+.documentation{
+  border-bottom: 1.2px solid rgba(255, 255, 255, 0.109);
+}
+.footer{
+  width: 65%;
+  margin: auto;
+}
+#f-head{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 1rem;
+
+}
+#svg svg{
+  margin-left: 1rem;
+  color: white;
+}
+#f-head{
+  border: 1.2px solid rgba(255, 255, 255, 0.147);
+}
+#p-div{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  gap: 1rem;
+  padding: 2.5rem 1rem;
+  border: 1.2px solid rgba(255, 255, 255, 0.189);
+  
+}
+#p-div h1{
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.309);
+    font-weight: 400;
+  }
+  #p-div h4{
+    color: rgba(255, 255, 255, 0.798);
+    font-weight: 500;
+  }
